@@ -185,7 +185,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<p>BLAH BLAH BLAH BLAH BLAH BLAH BLAH</p>
+<p>Cam Newton and Tim Tebow were arguably two of the most electrifying and impactful players in college football history. Auburn and Florida were elevated to new heights and the two players were etched into football history with their Heisman seasons. Cam Newton’s in 2010 and Tim Tebow’s in 2007. Means both of these magical seasons were 14 and 17 years ago respectively, it is worth taking a look back at these seasons when compared to other Heisman winners around the same time Troy Smith of Ohio State in 2006, Jameis Winston of Florida State in 2013, and Robert Griffin III of Baylor in 2011, and seeing what made Newton and Tebow’s seasons so special.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -258,13 +258,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>   <span class="fu">geom_bar</span>(<span class="at">data=</span>playersplits, <span class="fu">aes</span>(<span class="at">x=</span><span class="fu">reorder</span>(Player, Yards), <span class="at">fill=</span>Type, <span class="at">weight=</span>Yards)) <span class="sc">+</span></span>
 <span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a>   <span class="fu">coord_flip</span>() <span class="sc">+</span> </span>
 <span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>   <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"grey"</span>, <span class="st">"blue"</span>)) <span class="sc">+</span> </span>
-<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
-<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a>    <span class="at">x=</span><span class="st">"Player"</span>, </span>
-<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a>    <span class="at">y=</span><span class="st">"Yards Passing &amp; Rushing"</span>, </span>
-<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a>    <span class="at">title=</span><span class="st">"How Did Tebow &amp; Newtons Year's Compare To Other Heisman Winners?"</span>, </span>
-<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle=</span><span class="st">"Newton &amp; Tebow Did It Through The Air And On The Ground"</span>, </span>
-<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption=</span><span class="st">"Source: CfbReference| By: Nick Garlock"</span></span>
-<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a>   <span class="fu">theme_minimal</span>()<span class="sc">+</span></span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a>    <span class="at">x=</span><span class="st">"Player"</span>, </span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a>    <span class="at">y=</span><span class="st">"Yards Passing &amp; Rushing"</span>, </span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a>    <span class="at">title=</span><span class="st">"How Did Tebow &amp; Newtons Year's Compare To Other Heisman Winners?"</span>, </span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle=</span><span class="st">"Newton &amp; Tebow Did It Through The Air And On The Ground"</span>, </span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption=</span><span class="st">"Source: https://www.sports-reference.com/cfb/ | By: Nick Garlock"</span></span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
 <div>
@@ -274,7 +275,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>BLAH BLAH BLAH BLAH BLAH BLAH</p>
+<p>What made Cam Newton and Tim Tebow so electrifying was the dual threat ability the likes of which had never been seen before. For most of college football history prior to Tim Tebow and Cam Newton a quarterback was either really good at throwing the football or really good at running the football, and typically if you were a runner in college you were going to be a reciever in the NFL. In college,Tebow and Newton could do both better then anyone which kept teams guessing and made them impossible to stop. Sense Cam Newton, dual threat quarterbacks have became way more common, with players such as Marcus Mariota, and Kyler Murray to name a few, that doesn’t mean they aren’t still hard to stop.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -291,7 +292,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">locations =</span> <span class="fu">cells_title</span>(<span class="st">"subtitle"</span>)</span>
 <span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
 <span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tab_source_note</span>(</span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">source_note =</span> <span class="fu">md</span>(<span class="st">"**By:**Nick Garlock | **Source:** [MicrosoftExcel]"</span>)</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="at">source_note =</span> <span class="fu">md</span>(<span class="st">"By:Nick Garlock | **Source:** [https://www.sports-reference.com/cfb/]"</span>)</span>
 <span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span> </span>
 <span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>    <span class="fu">tab_style</span>(</span>
 <span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>     <span class="at">locations =</span> <span class="fu">cells_column_labels</span>(<span class="at">columns =</span> <span class="fu">everything</span>()),</span>
@@ -311,23 +312,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </details>
 <div class="cell-output-display">
 <div>
-<div id="wyvautuyrq" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#wyvautuyrq table {
+<div id="brwcjcpsuf" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#brwcjcpsuf table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#wyvautuyrq thead, #wyvautuyrq tbody, #wyvautuyrq tfoot, #wyvautuyrq tr, #wyvautuyrq td, #wyvautuyrq th {
+#brwcjcpsuf thead, #brwcjcpsuf tbody, #brwcjcpsuf tfoot, #brwcjcpsuf tr, #brwcjcpsuf td, #brwcjcpsuf th {
   border-style: none;
 }
 
-#wyvautuyrq p {
+#brwcjcpsuf p {
   margin: 0;
   padding: 0;
 }
 
-#wyvautuyrq .gt_table {
+#brwcjcpsuf .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -353,12 +354,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-left-color: #D3D3D3;
 }
 
-#wyvautuyrq .gt_caption {
+#brwcjcpsuf .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#wyvautuyrq .gt_title {
+#brwcjcpsuf .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -370,7 +371,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-width: 0;
 }
 
-#wyvautuyrq .gt_subtitle {
+#brwcjcpsuf .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -382,7 +383,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-top-width: 0;
 }
 
-#wyvautuyrq .gt_heading {
+#brwcjcpsuf .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -394,13 +395,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#wyvautuyrq .gt_bottom_border {
+#brwcjcpsuf .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#wyvautuyrq .gt_col_headings {
+#brwcjcpsuf .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -415,7 +416,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#wyvautuyrq .gt_col_heading {
+#brwcjcpsuf .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -435,7 +436,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   overflow-x: hidden;
 }
 
-#wyvautuyrq .gt_column_spanner_outer {
+#brwcjcpsuf .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -447,15 +448,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 4px;
 }
 
-#wyvautuyrq .gt_column_spanner_outer:first-child {
+#brwcjcpsuf .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#wyvautuyrq .gt_column_spanner_outer:last-child {
+#brwcjcpsuf .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#wyvautuyrq .gt_column_spanner {
+#brwcjcpsuf .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -467,11 +468,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   width: 100%;
 }
 
-#wyvautuyrq .gt_spanner_row {
+#brwcjcpsuf .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#wyvautuyrq .gt_group_heading {
+#brwcjcpsuf .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -497,7 +498,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   text-align: left;
 }
 
-#wyvautuyrq .gt_empty_group_heading {
+#brwcjcpsuf .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -512,15 +513,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   vertical-align: middle;
 }
 
-#wyvautuyrq .gt_from_md > :first-child {
+#brwcjcpsuf .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#wyvautuyrq .gt_from_md > :last-child {
+#brwcjcpsuf .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#wyvautuyrq .gt_row {
+#brwcjcpsuf .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -539,7 +540,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   overflow-x: hidden;
 }
 
-#wyvautuyrq .gt_stub {
+#brwcjcpsuf .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -552,7 +553,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#wyvautuyrq .gt_stub_row_group {
+#brwcjcpsuf .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -566,15 +567,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   vertical-align: top;
 }
 
-#wyvautuyrq .gt_row_group_first td {
+#brwcjcpsuf .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#wyvautuyrq .gt_row_group_first th {
+#brwcjcpsuf .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#wyvautuyrq .gt_summary_row {
+#brwcjcpsuf .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -584,16 +585,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#wyvautuyrq .gt_first_summary_row {
+#brwcjcpsuf .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#wyvautuyrq .gt_first_summary_row.thick {
+#brwcjcpsuf .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#wyvautuyrq .gt_last_summary_row {
+#brwcjcpsuf .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -603,7 +604,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-color: #D3D3D3;
 }
 
-#wyvautuyrq .gt_grand_summary_row {
+#brwcjcpsuf .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -613,7 +614,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#wyvautuyrq .gt_first_grand_summary_row {
+#brwcjcpsuf .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -623,7 +624,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-top-color: #D3D3D3;
 }
 
-#wyvautuyrq .gt_last_grand_summary_row_top {
+#brwcjcpsuf .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -633,11 +634,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-color: #D3D3D3;
 }
 
-#wyvautuyrq .gt_striped {
+#brwcjcpsuf .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#wyvautuyrq .gt_table_body {
+#brwcjcpsuf .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -646,7 +647,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-color: #D3D3D3;
 }
 
-#wyvautuyrq .gt_footnotes {
+#brwcjcpsuf .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -660,7 +661,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#wyvautuyrq .gt_footnote {
+#brwcjcpsuf .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -669,7 +670,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#wyvautuyrq .gt_sourcenotes {
+#brwcjcpsuf .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -683,7 +684,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#wyvautuyrq .gt_sourcenote {
+#brwcjcpsuf .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -691,63 +692,63 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#wyvautuyrq .gt_left {
+#brwcjcpsuf .gt_left {
   text-align: left;
 }
 
-#wyvautuyrq .gt_center {
+#brwcjcpsuf .gt_center {
   text-align: center;
 }
 
-#wyvautuyrq .gt_right {
+#brwcjcpsuf .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#wyvautuyrq .gt_font_normal {
+#brwcjcpsuf .gt_font_normal {
   font-weight: normal;
 }
 
-#wyvautuyrq .gt_font_bold {
+#brwcjcpsuf .gt_font_bold {
   font-weight: bold;
 }
 
-#wyvautuyrq .gt_font_italic {
+#brwcjcpsuf .gt_font_italic {
   font-style: italic;
 }
 
-#wyvautuyrq .gt_super {
+#brwcjcpsuf .gt_super {
   font-size: 65%;
 }
 
-#wyvautuyrq .gt_footnote_marks {
+#brwcjcpsuf .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#wyvautuyrq .gt_asterisk {
+#brwcjcpsuf .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#wyvautuyrq .gt_indent_1 {
+#brwcjcpsuf .gt_indent_1 {
   text-indent: 5px;
 }
 
-#wyvautuyrq .gt_indent_2 {
+#brwcjcpsuf .gt_indent_2 {
   text-indent: 10px;
 }
 
-#wyvautuyrq .gt_indent_3 {
+#brwcjcpsuf .gt_indent_3 {
   text-indent: 15px;
 }
 
-#wyvautuyrq .gt_indent_4 {
+#brwcjcpsuf .gt_indent_4 {
   text-indent: 20px;
 }
 
-#wyvautuyrq .gt_indent_5 {
+#brwcjcpsuf .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -806,7 +807,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </tr>
 </tbody><tfoot class="gt_sourcenotes">
 <tr class="even">
-<td colspan="5" class="gt_sourcenote">**By:**Nick Garlock | <strong>Source:</strong> [MicrosoftExcel]</td>
+<td colspan="5" class="gt_sourcenote">By:Nick Garlock | <strong>Source:</strong> [https://www.sports-reference.com/cfb/]</td>
 </tr>
 </tfoot>
 
@@ -816,13 +817,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>BLAH BLAH BLAH BLAH BLAH BLAH BLAH BLAH</p>
+<p>Another crazy thing is just how much Tebow and Newton were relied on in redzone situations. It makes sense. Lean on your best player in key situations and the results will probably be good. But no quarterbacks had ever been quite as productive and reliable in these key situations. This success in the redzone is part of what made them so electrifying.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(waffle)</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>FLA <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"OffenseYds/G"</span><span class="ot">=</span><span class="fl">457.2</span>, <span class="st">"PlayerYards/G"</span><span class="ot">=</span><span class="fl">321.61</span>,<span class="dv">42</span>)</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>AU <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"OffenseYds/G"</span><span class="ot">=</span><span class="fl">499.2</span>, <span class="st">"PlayerYards/G"</span><span class="ot">=</span><span class="fl">309.27</span>)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>FLA <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"OffenseYards/G"</span><span class="ot">=</span><span class="fl">457.2</span>, <span class="st">"PlayerYards/G"</span><span class="ot">=</span><span class="fl">321.61</span>,<span class="dv">42</span>)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>AU <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"OffenseYards/G"</span><span class="ot">=</span><span class="fl">499.2</span>, <span class="st">"PlayerYards/G"</span><span class="ot">=</span><span class="fl">309.27</span>)</span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="fu">iron</span>(</span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a> <span class="fu">waffle</span> (FLA<span class="sc">/</span><span class="dv">10</span>,</span>
@@ -845,8 +846,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>        <span class="at">xlab=</span><span class="st">"1 square = 9 Yards"</span>,</span>
 <span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>        <span class="at">colors =</span> <span class="fu">c</span>(<span class="st">"Navy"</span>, <span class="st">"Orange"</span>)) <span class="sc">+</span> </span>
 <span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>    <span class="fu">labs</span>(</span>
-<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>     <span class="at">x =</span> <span class="st">"Auburn</span><span class="sc">\n</span><span class="st">1 square = 12 yards"</span>,</span>
-<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>     <span class="at">caption=</span><span class="st">"Source: CfbReference | Graphic by Nick Garlock"</span>)</span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>     <span class="at">x =</span> <span class="st">"Auburn"</span>,</span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>     <span class="at">caption=</span><span class="st">"Source: https://www.sports-reference.com/cfb/ | Graphic by Nick Garlock"</span>)</span>
 <span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
@@ -857,7 +858,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>BLAH BLAH BLAH</p>
+<p>Quarterbacks typically have to put their teams on their backs and are the key to making things go. Tim Tebow and Cam Newton both accounted for well over half of their teams offensive yards with Tebow accounting for a greater portion. What is so impressive about this is how loaded with talent Florida was, Tim Tebow was clearly the best player but their were very capable players around him, he did not need to have such a heavy load, but he did. Florida was stacked with players such as Andre Caldwell, Percy Harvin, and Aaron Hernandez. Auburn in 2010 did not have quite the same talent level which makes Newton’s season and their success so incredible but also makes it weird that Tim Tebow accounted for more yards and had more overall production then Cam Newton.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -887,7 +888,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">data=</span>Player, </span>
 <span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">x=</span>RushYds, <span class="at">y=</span>RushAtt, <span class="at">label=</span>Player)</span>
 <span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
-<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"Cam Newton &amp; Tim Tebow Could Be Running Backs"</span>, <span class="at">subtitle=</span><span class="st">"Tim Tebow &amp; Cam Newton Were As Reliable As Any In Redzone Situations"</span>, <span class="at">caption=</span><span class="st">"Source: CfbReference | By Nick Garlock"</span>)  <span class="sc">+</span> <span class="fu">theme_minimal</span>() <span class="sc">+</span> </span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title=</span><span class="st">"Cam Newton &amp; Tim Tebow Could Be Running Backs"</span>, <span class="at">subtitle=</span><span class="st">"Tim Tebow &amp; Cam Newton Were As Reliable As Any In Redzone Situations"</span>, <span class="at">caption=</span><span class="st">"Source: https://www.sports-reference.com/cfb/ | By Nick Garlock"</span>)  <span class="sc">+</span> <span class="fu">theme_minimal</span>() <span class="sc">+</span> </span>
 <span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
 <span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>    <span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">16</span>, <span class="at">face =</span> <span class="st">"bold"</span>),</span>
 <span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">axis.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">8</span>), </span>
@@ -903,7 +904,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<p>BLAH BLAH BLAH BLAH BLAH</p>
+<p>To further illustrate the dual threat ability we look at all rushing stats from the 2007 and 2010 season with an extra emphaisis on touchdowns. Cam Newton ran for 20 touchdowns and 1,400 yards in 2010 and Tim Tebow ran for 23 touchdowns and around 900 yards. Both these stat lines would be considered solid seasons for runningbacks. Cam Newton would have been the 12th best runningback in the country in 2010 if you just looked at yards, but he also avereaged 5.6 yards a carry which would also put him up there. Tim Tebow in 2007 had over 200 carries for a 4.3 average. Not quite as glamorous for a running back but still really good. Tim Tebow could have and in some ways was an extremely reliable 3rd down back for Florida.</p>
 
 
 
